@@ -1,0 +1,22 @@
+.navbar{
+    background-color: rgb(69, 68, 68);
+}
+
+.nav-brand{
+    padding-left: 10%;
+    text-decoration: none;
+    color:white
+}
+
+.carousel-inner{
+    height: 400px;
+    width: 1083px;
+}
+
+.row{
+    background-color: rgb(241, 238, 234);
+}
+
+.fls:hover{
+    color:rgb(243, 134, 134);
+}
