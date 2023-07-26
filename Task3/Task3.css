@@ -18,5 +18,6 @@
 }
 
 .fls:hover{
-    color:rgb(243, 134, 134);
+    background-color: rgb(78, 76, 76);
+    color:white;
 }
