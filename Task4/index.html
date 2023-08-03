@@ -75,14 +75,16 @@
             span.innerText=txt
             span.className="d-flex border rounded-2 m-2 p-1 justify-content-center"
             div.appendChild(span)
-                span.addEventListener("click",()=>{
-                    span.style.textDecoration="line-through"
-                    span.style.backgroundColor="rgb(152, 147, 139)"
-                    span.addEventListener("click",()=>{
+                span.addEventListener("click",first)
+                function first(){
+                    if (span.style.textDecoration === "line-through") {
                         span.style.textDecoration="none"
-                        span.style.backgroundColor="#ffffff"
-                    })
-                })
+                        span.style="none"
+                    }else{
+                        span.style.textDecoration="line-through"
+                        span.style.backgroundColor="rgb(152, 147, 139)"
+                    }   
+                }
                 span.addEventListener("dblclick",()=>{
                     console.log("remove")
                     div.removeChild(span)
