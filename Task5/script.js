@@ -37,12 +37,12 @@ function addcartitem(imglink,prdname,rateshw,rate){
         calculateTot(rate,1)
         prdqnt.style.width="10%"
         divitem.appendChild(prdqnt)
-        let quantity=0
+        let quantity=1
         prdqnt.addEventListener('change',()=>{
             if(quantity<prdqnt.value){
-                calculateTot(rate,1)
+                calculateTot(rate,(prdqnt.value)-quantity)
             }else if(quantity>prdqnt.value){
-                reduceamt(rate,1)
+                reduceamt(rate,quantity-(prdqnt.value))
             }  
             quantity=prdqnt.value
         })
