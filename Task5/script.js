@@ -54,7 +54,7 @@ function addcartitem(imglink,prdname,rateshw,rate){
             reduceamt(rate,prdqnt.value)
         }
         let img1=document.createElement('img')
-        img1.src="/img/recycle-bin.png"
+        img1.src="img/recycle-bin.png"
         delbtn.appendChild(img1)
         img1.style.width="5%"
         img1.style.float="right"
