@@ -1,0 +1,43 @@
+.content {
+    padding: 50px 0;
+    background-image: url('img/bg1.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    color: #333333;
+  }
+  .section-box {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .section-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section-box p {
+    font-size: 16px;
+  }
