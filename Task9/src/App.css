@@ -1,0 +1,37 @@
+.d-flex{
+    padding:20%;
+}
+.navbar-brand ,.nav-link{
+    color:whitesmoke;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.nav-link:hover{
+    color:blue;
+}
+nav{
+    background-color: #000000;
+}
+#home{
+    background: linear-gradient(to right, green, yellow);
+    width: 100%;
+    height: 100vh;
+}
+#about{
+    background: linear-gradient(to right, red, blue);
+    color: azure;
+    width: 100%;
+    height: 100vh;
+}
+#career{
+    background: linear-gradient(to right,green,mediumblue,green,yellow);
+    color: azure;
+    width: 100%;
+    height: 100vh;
+}
+#contact{
+    background: linear-gradient(to right, yellow,red);
+    width: 100%;
+    height: 100vh;
+}
