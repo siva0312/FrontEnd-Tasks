@@ -4,6 +4,7 @@ import { Route, Routes ,Link } from 'react-router-dom'
 import PlaceToVisit from './PlaceToVisit';
 import Home from './Home';
 import BestTimeToVisit from './BestTimeToVisit';
+import Food from './Food';
 
 const Navbar = () => {
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
             <Link className='nav-link text-white' to="/BestTimeToVisit"><b>BestTimeToVisit</b></Link>
             <a className='nav-link text-white' href=""><b>Packages</b></a>
             <a className='nav-link text-white' href=""><b>Destination</b></a>
-            <a className='nav-link text-white' href=""><b>Food</b></a>
+            <Link className='nav-link text-white' to="/Food"><b>Food</b></Link>
           </ul> 
         </div>
       </nav>
@@ -26,6 +27,7 @@ const Navbar = () => {
         <Route path='/Home' element={<Home/> } />
         <Route path="/PlaceToVisit" element={<PlaceToVisit /> } />
         <Route path="/BestTimeToVisit" element={<BestTimeToVisit /> } />
+        <Route path="/Food" element={<Food /> } />
       </Routes>
     </header>
   )
