@@ -22,9 +22,15 @@ section .col{
     text-align: justify;
     font-size: large;
 }
-p{
-    font-size: large;
-}
 .imgptv{
     width:10%;
+}
+.btvtext{
+    width:36em;
+    text-align: justify;
+    font-size: large;
+}
+.btvimg{
+    width:6em;
+    height:8em;
 }

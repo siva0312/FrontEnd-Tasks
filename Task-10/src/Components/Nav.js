@@ -1,9 +1,10 @@
 import React from 'react';
 import '../App.css';
-import { Route, Routes ,Link} from 'react-router-dom'
+import { Route, Routes ,Link } from 'react-router-dom'
 import PlaceToVisit from './PlaceToVisit';
 import Home from './Home';
 import BestTimeToVisit from './BestTimeToVisit';
+
 const Navbar = () => {
   return (
     <header >
@@ -27,7 +28,6 @@ const Navbar = () => {
         <Route path="/BestTimeToVisit" element={<BestTimeToVisit /> } />
       </Routes>
     </header>
-    
   )
 }
 
