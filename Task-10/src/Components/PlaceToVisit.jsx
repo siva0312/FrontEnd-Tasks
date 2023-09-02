@@ -22,6 +22,7 @@ const PlaceToVisit = () => {
         </div>
         <figure>
           <img 
+            style={{width:'33em',height:'35em'}}
             src={require("./Home/Place.jpeg")}
             alt="Tourist Place To Visit In Tamil Nadu">
           </img>

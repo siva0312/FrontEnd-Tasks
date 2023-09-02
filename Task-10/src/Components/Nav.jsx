@@ -5,6 +5,7 @@ import PlaceToVisit from './PlaceToVisit';
 import Home from './Home';
 import BestTimeToVisit from './BestTimeToVisit';
 import Food from './Food';
+import Packages from '../TourPackage/Packages';
 
 const Navbar = () => {
   return (
@@ -16,8 +17,7 @@ const Navbar = () => {
             <Link className='nav-link text-white' to='/Home'><b>Home</b></Link>
             <Link className='nav-link text-white' to="/PlaceToVisit"><b>PlaceToVisit</b></Link>
             <Link className='nav-link text-white' to="/BestTimeToVisit"><b>BestTimeToVisit</b></Link>
-            <a className='nav-link text-white' href=""><b>Packages</b></a>
-            <a className='nav-link text-white' href=""><b>Destination</b></a>
+            <Link className='nav-link text-white' to="/Packages"><b>Packages</b></Link>
             <Link className='nav-link text-white' to="/Food"><b>Food</b></Link>
           </ul> 
         </div>
@@ -27,6 +27,7 @@ const Navbar = () => {
         <Route path='/Home' element={<Home/> } />
         <Route path="/PlaceToVisit" element={<PlaceToVisit /> } />
         <Route path="/BestTimeToVisit" element={<BestTimeToVisit /> } />
+        <Route path="/Packages" element={<Packages /> } />
         <Route path="/Food" element={<Food /> } />
       </Routes>
     </header>

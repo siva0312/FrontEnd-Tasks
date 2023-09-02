@@ -34,3 +34,10 @@ section .col{
     width:6em;
     height:8em;
 }
+.cardalign:hover,.maincard:hover{
+    transition: ease-out 0.5s;
+    transform: scale(1.05);
+}
+.formcard{
+    background: linear-gradient(rgb(206, 201, 201),lightgreen,rgb(222, 218, 218));
+}
